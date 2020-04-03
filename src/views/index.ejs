@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <%= title %>
+    </title>
+    <% include partials/header%>
+</head>
+
+<body>
+    <header>
+        <% include partials/navigation %>
+    </header>
+
+    <div class="main">
+        <div class="container">
+
+            <figure>
+                <img src="images/nodejs_logo.png" class="img-fluid" alt="NodeJS Logo">
+            </figure>
+
+            <h3 class="message mt-5 text-center">
+                Hello, this is my first website using nodejs and express. Only for test purposes
+            </h3>
+
+            <div class="mt-5 text-center">
+                <p>What is <a href="https://nodejs.org/" target="_blank" title="NodeJS"><strong>Node.JS</strong></a> is
+                    a JavaScript
+                    runtime built on Chrome's V8 JavaScript engine.</p>
+                <p>What is <a href="http://expressjs.com/" target="_blank" title="ExpressJS"><strong>ExpressJS</strong></a>
+                    is a minimal
+                    and flexible Node.js web application framework that provides a robust set of features for web and
+                    mobile applications.</p>
+            </div>
+
+        </div>
+    </div>
+    <% include partials/footer %>
+</body>
+
+</html>
